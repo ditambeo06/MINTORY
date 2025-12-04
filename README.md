@@ -1,3 +1,2 @@
 # SISPRAS
-Project Teknologi Open Source
 Sistem Informasi Sarana dan Prasarana Sekolah adalah sebuah platform digital yang dirancang untuk mendukung pengelolaan aset, fasilitas, dan kebutuhan infrastruktur sekolah secara terintegrasi, efisien, dan transparan. Sistem ini mempermudah proses pencatatan, monitoring, pemeliharaan, serta pelaporan terhadap seluruh sarana dan prasarana yang dimiliki sekolah. Melalui sistem ini, sekolah dapat memastikan bahwa aset digunakan secara optimal, pemeliharaan dilakukan tepat waktu, dan kebutuhan pengadaan sarana baru dapat direncanakan dengan lebih akurat.
