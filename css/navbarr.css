@@ -1,0 +1,147 @@
+/* Navbar styling */
+.navbar {
+  background-color: #343a40; 
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.navbar-brand:hover {
+  color: #e9ecef;
+}
+
+.navbar-nav .nav-link {
+  color: #f8f9fa;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #e9ecef;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: #343a40; 
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0; 
+  margin: 0; 
+  width: auto; 
+  min-width: 100%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+}
+
+/* Dropdown item styling */
+.dropdown-menu .dropdown-item {
+  color: #f8f9fa;
+  padding: 12px 16px; 
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #e9ecef;
+  background-color: #495057; 
+}
+
+/* Button logout style */
+.logout {
+  color: #f8f9fa; 
+  background-color: transparent; 
+  border: none; 
+  cursor: pointer;
+  text-align: left; 
+  font-size: 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 10px 15px; 
+  width: 100%; 
+  white-space: nowrap; 
+  box-sizing: border-box; 
+}
+
+/* Button logout hover */
+.logout:hover {
+  color: #e9ecef83; 
+  background-color: #e9ecef; 
+  border-radius: 5px; 
+}
+
+/* Toggler styling */
+.navbar-toggler {
+  border: none; 
+  background-color: transparent; 
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #343a40; 
+  border-radius: 5px; 
+}
+
+/* Responsiveness adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: start; 
+    padding-left: 0; 
+  }
+
+  .navbar-collapse {
+    background-color: #343a40; 
+    padding: 1rem;
+  }
+
+  .dropdown-menu {
+    text-align: start; 
+    max-width: 100%; 
+    overflow: hidden; 
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem;
+  }
+
+  .logout {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 10px 15px; 
+  }
+}
+.nav-link.active{
+  text-align: start;
+}
+.nav-item {
+  text-align: start;
+}
+
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem; 
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.875rem; 
+  }
+
+  .logout {
+    font-size: 0.875rem;
+  }
+}
+.nav-link.active {
+  text-align: start;
+}
+.nav-item{
+  text-align: start;
+}
+

@@ -1,0 +1,52 @@
+body {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 50px;
+}
+
+.card-left {
+  background-color: #fff;
+  padding: 100px;
+}
+
+.card-right {
+  background-image: url("img/smea.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
